@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+  <div class="calculator">
+    <label>
+      <input class="calculator__input calculator__input-1" id="num1" type="text" placeholder="введіть число">
+    </label>
+    <label>
+       <input class="calculator__input calculator__input-2" id="num2" type="text" placeholder="введіть число">
+    </label>
+   <label>
+      <select class="calculator__select" id="operation">
+        <Label><option class="calculator__select__option">Вибір оператора</option></Label>
+        <Label><option class="calculator__select__option" value="+">+</option></Label>
+        <Label><option class="calculator__select__option" value="-">-</option></Label>
+        <Label><option class="calculator__select__option" value="*">*</option></Label>
+        <Label><option class="calculator__select__option" value="/">/</option></Label>
+      </select>
+  </label>
+    <button class="calculator__button" type="button" onclick="Сalc()">Розрахувати</button>
+    <div class="calculator__result" id="result"></div>
+  </div>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
